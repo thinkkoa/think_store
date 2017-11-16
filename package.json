@@ -7,7 +7,7 @@
     "test": "npm run eslint",
     "test-cov": "istanbul cover ./node_modules/mocha/bin/_mocha -- -t 50000 --recursive  -R spec test/",
     "prepublish": "npm test",
-    "eslint": "eslint src"
+    "eslint": "eslint lib"
   },
   "engines": {
     "node": ">8.0.0"

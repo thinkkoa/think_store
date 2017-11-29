@@ -28,7 +28,7 @@ const options = {
     //type=file
     file_suffix: '.json', //File缓存方式下文件后缀名
     gc_hour: [4], //缓存清除的时间点，数据为小时
-    file_path: __dirname
+    file_path: process.env.ROOT_PATH + '/cache'
 
     //type=redis
     //redis_host: '127.0.0.1',

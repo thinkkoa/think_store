@@ -1,6 +1,6 @@
 {
   "name": "think_store",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "Cache's Storage for ThinkKoa.",
   "main": "index.js",
   "scripts": {

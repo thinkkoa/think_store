@@ -31,17 +31,17 @@ const options = {
     file_path: process.env.ROOT_PATH + '/cache'
 
     //type=redis
-    //redis_host: '127.0.0.1',
-    //redis_port: 6379,
-    //redis_password: '',
-    //redis_db: '0',
-    //redis_timeout: 5000, //try connection timeout
+    // host: '127.0.0.1',
+    // port: 6379,
+    // password: '',
+    // db: '0',
 
     //type=memcache
-    //memcache_host: '127.0.0.1',
-    //memcache_port: 11211,
-    //memcache_poolsize: 10, //memcache pool size
-    //memcache_timeout: 5000, //try connection timeout, 
+    // host: '127.0.0.1',
+    // port: 11211,
+
+    poolsize: 10, //pool size
+    conn_timeout: 5000, //try connection timeout, 
 }
 
 

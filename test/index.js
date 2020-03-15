@@ -25,7 +25,7 @@ const client = new store(config);
 //     process.exit();
 // });
 const batchFunc = async function () {
-    // const client2 = await client.command('test', {
+    // const client2 = await client.command('tget', {
     //     numberOfKeys: 1,
     //     lua: `return redis.call("get",KEYS[1])`
     // });
@@ -36,4 +36,4 @@ const batchFunc = async function () {
     }
 };
 
-batchFunc();
+setInterval(batchFunc, 10000);

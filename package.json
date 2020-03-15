@@ -1,6 +1,6 @@
 {
   "name": "think_store",
-  "version": "3.1.0",
+  "version": "3.3.0",
   "description": "Cache's Storage for ThinkKoa.",
   "main": "./lib/store.js",
   "scripts": {
@@ -19,10 +19,10 @@
   "homepage": "https://github.com/thinkkoa/think_store",
   "devDependencies": {
     "eslint": "^6.8.0",
-    "memcached": "^2.2.2",
-    "ioredis": "^4.16.0"
+    "memcached": "^2.2.2"
   },
   "dependencies": {
+    "ioredis": "^4.16.0",
     "think_lib": "^2.2.13"
   }
 }

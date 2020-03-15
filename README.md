@@ -2,7 +2,6 @@
 -----
 
 [![npm version](https://badge.fury.io/js/think_store.svg)](https://badge.fury.io/js/think_store)
-[![Dependency Status](https://david-dm.org/thinkkoa/think_store.svg)](https://david-dm.org/thinkkoa/think_store)
 
 Cache's Storage for ThinkKoa.
 
@@ -28,7 +27,7 @@ const options = {
     //type=file
     file_suffix: '.json', //File缓存方式下文件后缀名
     gc_hour: [4], //缓存清除的时间点，数据为小时
-    file_path: process.env.ROOT_PATH + '/cache'
+    file_path: process.env.ROOT_PATH + '/cache',
 
     //type=redis
     // host: '127.0.0.1',
